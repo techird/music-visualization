@@ -2,6 +2,7 @@
 <head>
     <title>Music Visualization</title>
     <script src="kity.js"></script>
+    <script src="three.min.js"></script>
     <style>
         #apple-timing {
             width: 80%;
@@ -11,14 +12,14 @@
 <body>
     <fieldset id="apple-zone" disabled>
         <legend>apple.mp3</legend>
-        <audio id="apple-src" src="apple.mp3"></audio>
+        <audio id="apple-src" src="ne.ogg"></audio>
         <input id="apple-timing" type="range" value="0" />
         <button id="play-button">Play</button>
         <button id="pause-button" disabled>Pause</button>
     </fieldset>
-    <fieldset id="visualization">
+    <div id="visualization">
         
-    </fieldset>
+    </div>
 </body>
 <script src="mv.js"></script>
 </html>
